@@ -1,0 +1,14 @@
+<?
+$MESS ["MODULE_NAME"] = "Тесты"; 
+$MESS ["MODULE_DESC"] = "Модуль для организации тестов различной тематики."; 
+
+$MESS ["PARTNER_NAME"] = "«Аэлита дизайн»";
+$MESS ["PARTNER_URI"] = "http://aelitadesign.ru/";
+
+$MESS ["FORM_DENIED"] = "Доступ закрыт"; 
+$MESS ["FORM_OPENED"] = "Только чтение"; 
+$MESS ["FORM_FULL"] = "Запись"; 
+
+$MESS ['C_MODULE_INSTALL'] = "Удаление модуля \"Тесты\"";
+
+?>

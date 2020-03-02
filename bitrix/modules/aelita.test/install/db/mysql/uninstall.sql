@@ -1,0 +1,13 @@
+drop table if exists b_aelita_test_group;
+drop table if exists b_aelita_test_test;
+drop table if exists b_aelita_test_question_group;
+drop table if exists b_aelita_test_question;
+drop table if exists b_aelita_test_answer;
+drop table if exists b_aelita_test_result;
+drop table if exists b_aelita_test_profile;
+drop table if exists b_aelita_test_questioning;
+drop table if exists b_aelita_test_glasses;
+drop table if exists b_aelita_test_access_group;
+drop table if exists b_aelita_test_access_test;
+drop table if exists b_aelita_test_responsible;
+drop table if exists b_aelita_test_step;

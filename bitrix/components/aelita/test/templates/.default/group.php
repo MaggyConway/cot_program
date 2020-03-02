@@ -1,0 +1,56 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?$GropParam=array(
+    "AJAX_MODE"=>$arParams["AJAX_MODE"],
+    "AJAX_OPTION_JUMP"=>$arParams["AJAX_OPTION_JUMP"],
+    "AJAX_OPTION_STYLE"=>$arParams["AJAX_OPTION_STYLE"],
+    "AJAX_OPTION_HISTORY"=>$arParams["AJAX_OPTION_HISTORY"],
+    "CACHE_TYPE"=>$arParams["CACHE_TYPE"],
+    "CACHE_TIME"=>$arParams["CACHE_TIME"],
+    "CACHE_GROUPS"=>$arParams["CACHE_GROUPS"],
+    "AJAX_OPTION_ADDITIONAL"=>$arParams["AJAX_OPTION_ADDITIONAL"],
+    "DETAIL_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["group"],
+);?>
+<?if($arResult["VARIABLES"]["GROUP_CODE"]){
+    $GropParam["PARENT_GROUP_CODE"]=$arResult["VARIABLES"]["GROUP_CODE"];
+}?>
+<?if($arResult["VARIABLES"]["GROUP_ID"]){
+    $GropParam["PARENT_GROUP"]=$arResult["VARIABLES"]["GROUP_ID"];
+}?>
+<?$list=$APPLICATION->IncludeComponent(
+    "aelita:test.groups",
+    "",
+    $GropParam,
+    $component
+);?>
+<?$ListParam=array(
+	"SHOW_NO_GROUP"=>$arParams["SHOW_NO_GROUP"],
+	"AJAX_MODE"=>$arParams["AJAX_MODE"],
+	"AJAX_OPTION_JUMP"=>$arParams["AJAX_OPTION_JUMP"],
+	"AJAX_OPTION_STYLE"=>$arParams["AJAX_OPTION_STYLE"],
+	"AJAX_OPTION_HISTORY"=>$arParams["AJAX_OPTION_HISTORY"],
+	"CACHE_TYPE"=>$arParams["CACHE_TYPE"],
+	"CACHE_TIME"=>$arParams["CACHE_TIME"],
+	"CACHE_GROUPS"=>$arParams["CACHE_GROUPS"],
+	"COUNT_TEST"=>$arParams["COUNT_TEST"],
+	"DISPLAY_TOP_PAGER"=>$arParams["DISPLAY_TOP_PAGER"],
+	"DISPLAY_BOTTOM_PAGER"=>$arParams["DISPLAY_BOTTOM_PAGER"],
+	"PAGER_TITLE"=>$arParams["PAGER_TITLE"],
+	"PAGER_SHOW_ALWAYS"=>$arParams["PAGER_SHOW_ALWAYS"],
+	"PAGER_TEMPLATE"=>$arParams["PAGER_TEMPLATE"],
+	"PAGER_DESC_NUMBERING"=>$arParams["PAGER_DESC_NUMBERING"],
+	"PAGER_DESC_NUMBERING_CACHE_TIME"=>$arParams["PAGER_DESC_NUMBERING_CACHE_TIME"],
+	"PAGER_SHOW_ALL"=>$arParams["PAGER_SHOW_ALL"],
+	"AJAX_OPTION_ADDITIONAL"=>$arParams["AJAX_OPTION_ADDITIONAL"],
+	"TEST_GROUP"=>$arResult["VARIABLES"]["GROUP_CODE"],
+	"LIST_PAGE_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["group"],
+	"DETAIL_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["test"],
+	"MAIN_PAGE_URL"=>$arResult["FOLDER"],
+	"SET_TITLE_GROUP"=>$arParams["SET_TITLE_GROUP"],
+	"ADD_GROUP_CHAIN"=>$arParams["ADD_GROUP_CHAIN"],
+	);?>
+<?$APPLICATION->IncludeComponent(
+	"aelita:test.list",
+	"",
+	$ListParam,
+	$component
+);?>

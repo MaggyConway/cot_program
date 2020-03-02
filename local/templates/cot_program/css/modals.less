@@ -1,0 +1,303 @@
+//body.modal-callback-active, body.modal-price-active {
+////	overflow: hidden;
+////}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#modal-success-container, #modal-docs-container {
+  position: fixed;
+  display: table;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  z-index: 9999;
+
+  .modal--background {
+    display: block;
+    background: rgba(0, 0, 0, .8);
+    z-index: 1000;
+    position: absolute;
+  }
+
+  .modal {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3px;
+    font-weight: 300;
+    position: relative;
+    width: 0;
+    height: 0;
+    padding: 45px 75px;
+    z-index: 1500;
+
+    h3 {
+      font-size: 30px;
+      color: #212121;
+      display: block;
+      margin-bottom: 0;
+      position: relative;
+    }
+
+    p {
+      font-size: 15px;
+      text-align: center;
+      color: #5C5C5C;
+      display: block;
+      margin-bottom: 30px;
+      position: relative;
+    }
+
+    .modal-close {
+      position: absolute;
+      margin-top: 15px;
+      right: 15px;
+      width: 15px;
+      height: 15px;
+      background: url('/local/templates/cot_program/img/delete-cross.svg') no-repeat center center;
+
+      &:hover {
+        transition: all .5s ease-in-out;
+        transform: rotate(360deg);
+        cursor: pointer;
+      }
+    }
+
+    //form {
+    //  position: relative;
+    //
+    //  input {
+    //    width: 100%;
+    //    height: 50px;
+    //    background-color: #fff;
+    //    border: 1px solid #DDDDDD;
+    //    border-radius: 4px;
+    //    padding-left: 15px;
+    //    margin-bottom: 20px;
+    //    outline: none;
+    //  }
+    //
+    //  button {
+    //    margin-top: 30px;
+    //    display: flex;
+    //    justify-content: center;
+    //    align-items: center;
+    //    width: 145px;
+    //    height: 40px;
+    //    color: #fff;
+    //    background: #A7060B;
+    //    border-radius: 5px;
+    //    border: none;
+    //    outline: none;
+    //    position: relative;
+    //    left: 50%;
+    //    transform: translateX(-50%);
+    //    font-weight: 700;
+    //
+    //    &:hover {
+    //      background-color: #c81015;
+    //      color: #fff;
+    //      cursor: pointer;
+    //    }
+    //  }
+    //}
+
+    .modal--svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 3px;
+      z-index: -1;
+
+      rect {
+        stroke: #fff;
+        stroke-width: 2px;
+        //stroke-dasharray: 1820;
+        //stroke-dashoffset: 1820;
+      }
+    }
+  }
+
+  &.animate_modal {
+    transform: scale(1);
+
+    .modal--background {
+      background: rgba(0, 0, 0, .0);
+      animation: fadeIn .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .modal {
+      background-color: transparent;
+      animation: modalFadeIn 0.5s 0s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+      position: fixed;
+      width: 520px;
+      height: 255px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+
+      h3, p, .modal-close, .btn {
+        opacity: 0;
+        animation: modalContentFadeIn .3s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+        -webkit-animation-delay: 0.2s;
+        -moz-animation-delay: 0.2s;
+        -ms-animation-delay: 0.2s;
+        -o-animation-delay: 0.2s;
+        animation-delay: 0.2s;
+      }
+      h3 {
+        text-align: center;
+      }
+      p {
+        margin-top: 10px;
+      }
+      .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 50px;
+        white-space: nowrap;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .modal--svg {
+        rect {
+          //animation: sketchIn 1.5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+          animation: none;
+        }
+      }
+    }
+
+    //&.out {
+    //	animation: quickScaleDown 0s .5s linear forwards;
+    //	.modal--background {
+    //		animation: fadeOut .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+    //	}
+    //	.modal {
+    //		animation: modalFadeOut .3s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+    //		h3, p, form, .modal-close {
+    //			animation: modalContentFadeOut .1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+    //		}
+    //		.modal--svg {
+    //			rect {
+    //				animation: sketchOut .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+    //			}
+    //		}
+    //	}
+    //}
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    background: rgba(0, 0, 0, .0);
+  }
+  100% {
+    background: rgba(0, 0, 0, .7);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    background: rgba(0, 0, 0, .7);
+  }
+  100% {
+    background: rgba(0, 0, 0, .0);
+  }
+}
+
+@keyframes quickScaleDown {
+  0% {
+    transform: scale(1);
+  }
+  99.9% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes sketchIn {
+  0% {
+    stroke-dashoffset: 1820;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes sketchOut {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 1820;
+  }
+}
+
+@keyframes modalFadeIn {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes modalFadeOut {
+  0% {
+    background-color: white;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes modalContentFadeIn {
+  0% {
+    opacity: 0;
+    top: -20px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+@keyframes modalContentFadeOut {
+  0% {
+    opacity: 1;
+    top: 0px;
+  }
+  100% {
+    opacity: 0 !important;
+    top: -20px;
+  }
+}
+
+
+@media screen and ( max-width: 520px) {
+  #modal-card-container {
+    .modal {
+      width: 90% !important;
+      height: 90% !important;
+      overflow: hidden;
+      padding: 10px;
+      .modal_card_img {
+        -webkit-background-size: cover !important;
+        background-size: cover !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+img.detail_picture
+{
+	float:left;
+	margin:0 8px 6px 1px;
+}
+
+.test_item
+{
+	margin:0px 0px 10px;
+}
+
+.test_item_link
+{
+	float:right;
+}
+
+.test_item_maximum_points
+{
+	margin:4px 0px;
+}
+
+.test_repeated
+{
+	text-align:right;
+	margin:0px 0px;
+}
+
+.test_list table
+{
+	border-collapse:collapse;
+	margin:0px auto 15px;
+	width:60%;
+}
+
+.test_list td, .test_list th
+{
+	padding:2px;
+}
+
+.test_list td
+{
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+}
+
+.test_list th
+{
+	padding:5px;
+}

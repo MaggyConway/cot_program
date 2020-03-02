@@ -1,0 +1,28 @@
+<?
+$MESS["AELITA_TEST_MAIN"]="Тесты PRO";
+$MESS["AELITA_TEST_MAIN_TITLE"]="Управление тестами";
+
+$MESS["AELITA_TEST_GROUP"]="Группы";
+$MESS["AELITA_TEST_GROUP_TITLE"]="Группы тестов";
+
+$MESS["AELITA_TEST_TEST"]="Тесты";
+$MESS["AELITA_TEST_TEST_TITLE"]="Тесты";
+
+$MESS["AELITA_TEST_TEST"]="Тесты";
+$MESS["AELITA_TEST_TEST_TITLE"]="Тесты";
+
+$MESS["AELITA_TEST_STATISTICS"]="Статистика";
+$MESS["AELITA_TEST_STATISTICS_TITLE"]="Статистика";
+
+$MESS["AELITA_TEST_STATISTICS_TESTING"]="Тестирование";
+$MESS["AELITA_TEST_STATISTICS_TESTING_TITLE"]="Статистика тестирования";
+
+$MESS["AELITA_TEST_STATISTICS_PROFILES"]="Профили";
+$MESS["AELITA_TEST_STATISTICS_PROFILES_TITLE"]="Статистика профилей";
+
+$MESS["AELITA_TEST_STATISTICS_TESTS"]="Тесты";
+$MESS["AELITA_TEST_STATISTICS_TESTS_TITLE"]="Статистика тестов";
+
+$MESS["AELITA_TEST_STATISTICS_TESTING_LIST"]="Статистика прохождения по тесту";
+$MESS["AELITA_TEST_STATISTICS_TESTING_LIST_TITLE"]="Статистика прохождения по тесту";
+?>

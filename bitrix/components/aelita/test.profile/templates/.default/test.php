@@ -1,0 +1,29 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?
+$param=array(
+	"ADD_TEST_CHAIN"=>$arParams["ADD_TEST_CHAIN"],
+	"SET_TITLE_TEST"=>$arParams["SET_TITLE_TEST"],
+	"COUNT_TEST"=>$arParams["COUNT_TEST"],
+	"DISPLAY_TOP_PAGER"=>$arParams["DISPLAY_TOP_PAGER"],
+	"DISPLAY_BOTTOM_PAGER"=>$arParams["DISPLAY_BOTTOM_PAGER"],
+	"PAGER_TITLE"=>$arParams["PAGER_TITLE"],
+	"PAGER_SHOW_ALWAYS"=>$arParams["PAGER_SHOW_ALWAYS"],
+	"PAGER_TEMPLATE"=>$arParams["PAGER_TEMPLATE"],
+	"PAGER_DESC_NUMBERING"=>$arParams["PAGER_DESC_NUMBERING"],
+	"PAGER_DESC_NUMBERING_CACHE_TIME"=>$arParams["PAGER_DESC_NUMBERING_CACHE_TIME"],
+	"PAGER_SHOW_ALL"=>$arParams["PAGER_SHOW_ALL"],
+	"CACHE_TYPE"=>$arParams["CACHE_TYPE"],
+	
+	"TESTS_URL"=>$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["tests"],
+	"TEST_URL"=>$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["test"],
+	"DETAIL_URL"=>$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["questioning"],
+	"REPEATED_URL"=>$arParams["REPEATED_URL"],
+	"TEST_ID"=>$arResult["VARIABLES"]["TEST_CODE"],
+	);
+?>
+<?$APPLICATION->IncludeComponent(
+	"aelita:test.profile.test",
+	"",
+	$param,
+	$component
+);?>

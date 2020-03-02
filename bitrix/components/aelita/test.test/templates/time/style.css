@@ -1,0 +1,124 @@
+img.detail_picture
+{
+	float:left;
+	margin:0 8px 6px 1px;
+}
+
+.right
+{
+	margin-left:30px;
+
+}
+
+.list_answer input
+{
+	float:left;
+	margin-top:3px;
+}
+
+.list_page
+{
+	text-align:right;
+}
+
+.line_step
+{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	text-align:left;
+}
+
+.line_step li
+{
+	display:inline-block;
+	vertical-align:top;
+}
+
+.line_step a,.line_step span
+{
+	display:inline-block;
+	border:1px solid #DADADA;
+	padding:5px 10px;
+}
+
+.line_step a,.line_step span
+{
+	text-decoration:none;
+}
+
+.line_step .select a,.line_step .select span
+{
+	border:1px solid #000;
+}
+
+.line_step .otv a,.line_step .otv span
+{
+	background-color:#DADADA;
+}
+
+.countdownHolder{
+	font: 15px/1.5 sans-serif;
+	text-align:center;
+	letter-spacing:-3px;
+	border:1px solid #E1B52D;
+	display:inline-block;
+	background-color:#FCF7D1;
+	padding:5px 10px;
+	border-radius:10px;
+}
+
+.position{
+	display: inline-block;
+	height: 1.5em;
+	overflow: hidden;
+	position: relative;
+	width:0.5em;
+}
+
+.digit{
+	position:absolute;
+	display:block;
+	width:0.5em;
+	text-align:center;
+	color:#444;
+	letter-spacing:-1px;
+}
+
+.countDays{ /* display:none !important;*/ }
+.countDiv0{ /* display:none !important;*/ }
+.countHours{}
+.countDiv1{}
+.countMinutes{}
+.countDiv2{}
+.countSeconds{}
+
+
+.countDiv{
+	display:inline-block;
+	width:16px;
+	height:1.6em;
+	position:relative;
+}
+
+.countDiv:before,
+.countDiv:after{
+	position:absolute;
+	width:5px;
+	height:5px;
+	background-color:#444;
+	border-radius:50%;
+	left:50%;
+	margin-left:-3px;
+	top:0.5em;
+	
+	content:'';
+}
+
+.countDiv:after{
+	top:0.9em;
+}
+
+input.closequestioning { 
+float: right;
+}

@@ -1,0 +1,12 @@
+2020-Feb-26 05:03:23 Наличие необходимых модулей php (check_php_modules): Ok
+Все необходимые модули установлены
+2020-Feb-26 05:03:23 Обязательные параметры PHP (check_php_settings): Ok
+Настройки правильные
+2020-Feb-26 05:03:23 Модули веб-сервера (check_security): Warning
+Замечание. Загружен модуль mod_dav/mod_dav_fs, WebDav не будет работать
+2020-Feb-26 05:03:23 Значения переменных сервера (check_server_vars): Ok
+Корректные
+2020-Feb-26 05:03:23 Сохранение сессии (check_session): Ok
+50% done
+2020-Feb-26 05:03:23 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Fail
+Ошибка! Сайт работает в UTF кодировке, настройки mbstring:mbstring.func_overload=0mbstring.internal_encoding=""default_charset="utf-8"требуется:mbstring.func_overload=2mbstring.internal_encoding=""default_charset="utf-8"

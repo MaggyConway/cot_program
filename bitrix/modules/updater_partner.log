@@ -1,0 +1,468 @@
+2019-11-28 10:09:04 -  - exec CUpdateClientPartner::SearchModulesEx
+2019-11-28 10:09:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-11-28 10:09:04 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=asoprogram1&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&search_module_id=&search_module=&search_category=7%2C14&search_type=&search_order=DESC&search_order_by=SORT&search_page=1&SUPD_SRS=RU&SUPD_CMP=N
+2019-11-28 10:09:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-11-28 10:09:06 -  - TIME SearchModulesEx(request) 1.763 sec
+2019-11-28 10:09:06 -  - exec CUpdateClientPartner::ParseServerData
+2019-11-28 10:09:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-11-28 10:09:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-11-28 10:09:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=asoprogram1&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=nsandrey.emptyinstall&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-11-28 10:09:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-11-28 10:09:19 -  - TIME LoadModulesUpdates(request) 0.701 sec
+2019-11-28 10:09:19 -  - exec CUpdateClientPartner::ParseServerData
+2019-11-28 10:09:19 - S - STEP
+2019-11-28 10:09:19 - LM4W01 - loadModule4Wizard-Step
+2019-11-28 10:09:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-11-28 10:09:19 -  - exec CUpdateClientPartner::ParseServerData
+2019-11-28 10:09:19 -  - loadFile
+2019-11-28 10:09:20 - U - RETURN
+2019-11-28 10:09:20 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-11-28 10:09:20 -  - TIME UnGzipArchive 0.108 sec
+2019-11-28 10:09:21 -  - TIME UpdateStepModules 0.283 sec
+2019-11-28 10:09:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-11-28 10:09:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-11-28 10:09:21 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=asoprogram1&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=nsandrey.emptyinstall&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-11-28 10:09:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-11-28 10:09:22 -  - TIME LoadModulesUpdates(request) 0.631 sec
+2019-11-28 10:09:22 -  - exec CUpdateClientPartner::ParseServerData
+2019-11-28 10:09:22 - STEP - Finish - NOUPDATES
+2019-11-28 10:09:22 - LM4W03 - Finish - NOUPDATES
+2019-11-28 10:10:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-11-28 10:10:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-11-28 10:10:38 -  - exec CUpdateClientPartner::ParseServerData
+2019-11-28 10:10:38 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-11-28 10:10:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-11-28 10:10:38 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=asoprogram1&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-11-28 10:10:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-11-28 10:10:39 -  - TIME GetUpdatesList(request) 0.314 sec
+2019-11-28 10:10:39 -  - exec CUpdateClientPartner::ParseServerData
+2019-11-28 10:10:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-11-28 10:10:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-11-28 10:10:40 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-03 12:21:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-03 12:21:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-03 12:21:09 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-03 12:21:09 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-03 12:21:09 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-03 12:21:09 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=asoprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-03 12:21:09 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-03 12:21:09 -  - TIME GetUpdatesList(request) 0.334 sec
+2019-12-03 12:21:09 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-03 12:21:09 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-03 12:21:09 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-03 12:21:09 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-04 12:24:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-04 12:24:01 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-04 12:24:02 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-04 12:24:02 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-04 12:24:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-04 12:24:02 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=asoprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-04 12:24:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-04 12:24:02 -  - TIME GetUpdatesList(request) 0.317 sec
+2019-12-04 12:24:02 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-04 12:24:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-04 12:24:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-04 12:24:02 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-05 09:39:48 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-05 09:39:48 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-05 09:39:48 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=asoprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall%2Caelita.test&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-05 09:39:48 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-05 09:39:49 -  - TIME GetUpdatesList(request) 1.118 sec
+2019-12-05 09:39:49 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-05 09:43:14 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-05 09:43:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-05 09:43:14 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=asoprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall%2Caelita.test&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-05 09:43:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-05 09:43:15 -  - TIME GetUpdatesList(request) 1.004 sec
+2019-12-05 09:43:15 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-05 09:43:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-05 09:43:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-05 09:43:38 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=asoprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=aelita.test&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-05 09:43:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-05 09:43:41 -  - TIME LoadModulesUpdates(request) 3.559 sec
+2019-12-05 09:43:41 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-05 09:43:41 - S - STEP
+2019-12-05 09:43:41 - LMU01 - LoadModulesUpdates-Step
+2019-12-05 09:43:42 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-05 09:43:42 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-05 09:43:42 -  - loadFile
+2019-12-05 09:43:47 - U - RETURN
+2019-12-05 09:43:47 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-05 09:43:48 -  - TIME UnGzipArchive 0.893 sec
+2019-12-05 09:43:51 -  - TIME UpdateStepModules 2.185 sec
+2019-12-05 09:43:51 - UPD_SUCCESS - Updated: aelita.test
+2019-12-05 09:43:51 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-05 09:43:51 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-05 09:43:51 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=asoprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Baelita.test%2C3.1.19%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=aelita.test&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-05 09:43:51 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-05 09:43:54 -  - TIME LoadModulesUpdates(request) 2.644 sec
+2019-12-05 09:43:54 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-05 09:43:54 - STEP - Finish - NOUPDATES
+2019-12-05 09:43:54 - STEP - Finish - NOUPDATES
+2019-12-05 09:43:59 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-05 09:43:59 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-05 09:43:59 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=asoprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Baelita.test%2C3.1.19%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=aelita.test%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-05 09:43:59 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-05 09:43:59 -  - TIME GetUpdatesList(request) 0.704 sec
+2019-12-05 09:43:59 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-05 09:44:02 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-05 09:44:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-05 09:44:02 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=asoprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Baelita.test%2C3.1.19%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=aelita.test%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-05 09:44:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-05 09:44:02 -  - TIME GetUpdatesList(request) 0.449 sec
+2019-12-05 09:44:02 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-05 12:30:32 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-05 12:30:32 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-05 12:30:32 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-05 12:30:32 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-05 12:30:32 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-05 12:30:32 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=asoprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Baelita.test%2C3.1.19%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=aelita.test%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-05 12:30:32 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-05 12:30:33 -  - TIME GetUpdatesList(request) 0.371 sec
+2019-12-05 12:30:33 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-05 12:30:33 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-05 12:30:33 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-05 12:30:33 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-06 13:25:31 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-06 13:25:31 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-06 13:25:32 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-06 13:25:32 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-06 13:25:32 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-06 13:25:32 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=asoprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Baelita.test%2C3.1.19%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=aelita.test%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-06 13:25:32 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-06 13:25:33 -  - TIME GetUpdatesList(request) 0.316 sec
+2019-12-06 13:25:33 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-06 13:25:33 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-06 13:25:33 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-06 13:25:33 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-09 11:10:40 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-09 11:10:40 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-09 11:10:41 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-09 11:10:41 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-09 11:10:41 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-09 11:10:41 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=asoprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Baelita.test%2C3.1.19%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=aelita.test%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-09 11:10:41 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-09 11:10:42 -  - TIME GetUpdatesList(request) 0.687 sec
+2019-12-09 11:10:42 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-09 11:10:42 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-09 11:10:42 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-09 11:10:43 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 12:52:46 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 12:52:46 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 12:52:47 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 12:52:47 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-10 12:52:47 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 12:52:47 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=asoprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Baelita.test%2C3.1.19%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=aelita.test%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-10 12:52:47 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 12:52:47 -  - TIME GetUpdatesList(request) 0.313 sec
+2019-12-10 12:52:47 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 12:52:47 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 12:52:47 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 12:52:48 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 13:34:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 13:34:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 13:34:04 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 13:34:04 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-11 13:34:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 13:34:04 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=asoprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=3&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Baelita.test%2C3.1.19%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=aelita.test%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-11 13:34:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 13:34:05 -  - TIME GetUpdatesList(request) 0.345 sec
+2019-12-11 13:34:05 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 13:34:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 13:34:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 13:34:05 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-12 13:34:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-12 13:34:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-12 13:34:16 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-12 13:34:16 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-12 13:34:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-12 13:34:16 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=cotprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Baelita.test%2C3.1.19%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=aelita.test%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-12 13:34:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-12 13:34:16 -  - TIME GetUpdatesList(request) 0.299 sec
+2019-12-12 13:34:16 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-12 13:34:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-12 13:34:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-12 13:34:16 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-18 18:10:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-18 18:10:13 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-18 18:10:13 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-18 18:10:13 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-18 18:10:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-18 18:10:13 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=site-asmart.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.3.6&NGINX=Y&dbv=5.7.23&instm=main%2C20.0.0%2CY%3Bbitrixcloud%2C18.5.0%2CN%3Bseo%2C19.0.800%2CN%3Bfileman%2C18.5.500%2CN%3Bcompression%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bmessageservice%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bui%2C19.0.400%2CN%3Bhighloadblock%2C19.0.0%2CN%3Bclouds%2C19.0.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-18 18:10:13 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-18 18:10:13 -  - TIME GetUpdatesList(request) 0.231 sec
+2019-12-18 18:10:13 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-18 18:10:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-18 18:10:13 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-18 18:10:14 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-23 11:31:59 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-23 11:31:59 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-23 11:32:00 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-23 11:32:00 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-23 11:32:00 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-23 11:32:00 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=cotprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-23 11:32:00 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-23 11:32:00 -  - TIME GetUpdatesList(request) 0.332 sec
+2019-12-23 11:32:00 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-23 11:32:00 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-23 11:32:00 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-23 11:32:01 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-27 13:25:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-27 13:25:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-27 13:25:21 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-27 13:25:21 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-27 13:25:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-27 13:25:21 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=cotprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-27 13:25:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-27 13:25:21 -  - TIME GetUpdatesList(request) 0.3 sec
+2019-12-27 13:25:21 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-27 13:25:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-27 13:25:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-27 13:25:22 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-21 09:41:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-21 09:41:13 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-21 09:41:13 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-21 09:41:13 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-21 09:41:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-21 09:41:13 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=cotprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-21 09:41:13 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-21 09:41:14 -  - TIME GetUpdatesList(request) 0.264 sec
+2020-01-21 09:41:14 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-21 09:41:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-21 09:41:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-21 09:41:14 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-28 12:01:32 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-28 12:01:33 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-28 12:01:33 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-28 12:01:33 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-28 12:01:33 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-28 12:01:33 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=cotprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-28 12:01:33 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-28 12:01:33 -  - TIME GetUpdatesList(request) 0.259 sec
+2020-01-28 12:01:33 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-28 12:01:33 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-28 12:01:33 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-28 12:01:34 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 16:41:56 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 16:41:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 16:41:57 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 16:41:57 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-05 16:41:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 16:41:57 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=cotprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 16:41:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 16:41:57 -  - TIME GetUpdatesList(request) 0.257 sec
+2020-02-05 16:41:57 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 16:41:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 16:41:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 16:41:57 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-18 14:45:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-18 14:45:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-18 14:45:16 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-18 14:45:16 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-18 14:45:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-18 14:45:16 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=cotprogram&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.1.32&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-18 14:45:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-18 14:45:16 -  - TIME GetUpdatesList(request) 0.263 sec
+2020-02-18 14:45:16 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-18 14:45:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-18 14:45:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-18 14:45:16 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-18 15:23:56 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-18 15:23:56 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-18 15:23:56 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.0%2CY%3Bhighloadblock%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bperfmon%2C18.5.0%2CN%3Bsocialservices%2C19.0.0%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Blanding%2C19.0.175%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C19.0.400%2CN%3Btranslate%2C18.0.100%2CN%3Biblock%2C18.6.1000%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-18 15:23:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-18 15:23:56 -  - TIME GetUpdatesList(request) 0.27 sec
+2020-02-18 15:23:56 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-18 15:24:17 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-18 15:24:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-18 15:24:17 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.0%2CY%3Bhighloadblock%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bperfmon%2C18.5.0%2CN%3Bsocialservices%2C19.0.0%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Blanding%2C19.0.175%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C19.0.400%2CN%3Btranslate%2C18.0.100%2CN%3Biblock%2C18.6.1000%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-18 15:24:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-18 15:24:17 -  - TIME GetUpdatesList(request) 0.182 sec
+2020-02-18 15:24:17 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-20 11:38:45 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-20 11:38:45 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-20 11:38:45 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-20 11:38:45 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-20 11:38:45 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-20 11:38:45 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.0%2CY%3Bhighloadblock%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bperfmon%2C18.5.0%2CN%3Bsocialservices%2C19.0.0%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Blanding%2C19.0.175%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C19.0.400%2CN%3Btranslate%2C18.0.100%2CN%3Biblock%2C18.6.1000%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-20 11:38:45 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-20 11:38:45 -  - TIME GetUpdatesList(request) 0.184 sec
+2020-02-20 11:38:45 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-20 11:38:45 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-20 11:38:45 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-20 11:38:45 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-26 10:02:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-26 10:02:07 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-26 10:02:08 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-26 10:02:08 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-26 10:02:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-26 10:02:08 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.0%2CY%3Bhighloadblock%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bperfmon%2C18.5.0%2CN%3Bsocialservices%2C19.0.0%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Blanding%2C19.0.175%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C19.0.400%2CN%3Btranslate%2C18.0.100%2CN%3Biblock%2C18.6.1000%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-26 10:02:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-26 10:02:08 -  - TIME GetUpdatesList(request) 0.197 sec
+2020-02-26 10:02:08 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-26 10:02:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-26 10:02:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-26 10:02:08 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-26 11:09:55 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-26 11:09:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-26 11:09:55 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.0%2CY%3Bhighloadblock%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bperfmon%2C18.5.0%2CN%3Bsocialservices%2C19.0.0%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Blanding%2C19.0.175%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C19.0.400%2CN%3Btranslate%2C18.0.100%2CN%3Biblock%2C18.6.1000%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-26 11:09:55 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-26 11:09:56 -  - TIME GetUpdatesList(request) 0.461 sec
+2020-02-26 11:09:56 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-27 10:43:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-27 10:43:07 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-27 10:43:07 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-27 10:43:07 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-27 10:43:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-27 10:43:07 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.0%2CY%3Bhighloadblock%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bperfmon%2C18.5.0%2CN%3Bsocialservices%2C19.0.0%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Blanding%2C19.0.175%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C19.0.400%2CN%3Btranslate%2C18.0.100%2CN%3Biblock%2C18.6.1000%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-27 10:43:07 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-27 10:43:08 -  - TIME GetUpdatesList(request) 0.225 sec
+2020-02-27 10:43:08 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-27 10:43:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-27 10:43:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-27 10:43:08 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-27 10:56:50 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-27 10:56:50 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-27 10:56:50 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.0%2CY%3Bhighloadblock%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bperfmon%2C18.5.0%2CN%3Bsocialservices%2C19.0.0%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Blanding%2C19.0.175%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C19.0.400%2CN%3Btranslate%2C18.0.100%2CN%3Biblock%2C18.6.1000%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-27 10:56:50 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-27 10:56:50 -  - TIME GetUpdatesList(request) 0.232 sec
+2020-02-27 10:56:50 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-27 10:57:02 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-27 10:57:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-27 10:57:02 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.0%2CY%3Bhighloadblock%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bperfmon%2C18.5.0%2CN%3Bsocialservices%2C19.0.0%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Blanding%2C19.0.175%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C19.0.400%2CN%3Btranslate%2C18.0.100%2CN%3Biblock%2C18.6.1000%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-27 10:57:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-27 10:57:09 -  - TIME GetUpdatesList(request) 7.225 sec
+2020-02-27 10:57:09 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-27 10:57:27 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-27 10:57:27 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-27 10:57:27 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.0%2CY%3Bhighloadblock%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bperfmon%2C18.5.0%2CN%3Bsocialservices%2C19.0.0%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Blanding%2C19.0.175%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C19.0.400%2CN%3Btranslate%2C18.0.100%2CN%3Biblock%2C18.6.1000%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-27 10:57:27 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-27 10:57:27 -  - TIME GetUpdatesList(request) 0.231 sec
+2020-02-27 10:57:27 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-27 10:57:30 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-27 10:57:30 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-27 10:57:30 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.0%2CY%3Bhighloadblock%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bperfmon%2C18.5.0%2CN%3Bsocialservices%2C19.0.0%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Blanding%2C19.0.175%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C19.0.400%2CN%3Btranslate%2C18.0.100%2CN%3Biblock%2C18.6.1000%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-27 10:57:30 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-27 10:57:30 -  - TIME GetUpdatesList(request) 0.24 sec
+2020-02-27 10:57:30 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-27 10:57:53 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-27 10:57:53 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-27 10:57:53 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.0%2CY%3Bhighloadblock%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bperfmon%2C18.5.0%2CN%3Bsocialservices%2C19.0.0%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Blanding%2C19.0.175%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C19.0.400%2CN%3Btranslate%2C18.0.100%2CN%3Biblock%2C18.6.1000%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-27 10:57:53 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-27 10:57:54 -  - TIME GetUpdatesList(request) 0.232 sec
+2020-02-27 10:57:54 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-27 11:01:50 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-27 11:01:50 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-27 11:01:50 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.0%2CY%3Bhighloadblock%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bperfmon%2C18.5.0%2CN%3Bsocialservices%2C19.0.0%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Blanding%2C19.0.175%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C19.0.400%2CN%3Btranslate%2C18.0.100%2CN%3Biblock%2C18.6.1000%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-27 11:01:50 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-27 11:01:50 -  - TIME GetUpdatesList(request) 0.452 sec
+2020-02-27 11:01:50 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-28 10:34:01 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-28 10:34:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-28 10:34:01 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.650%2CN%3Bhighloadblock%2C20.0.100%2CN%3Bmessageservice%2C20.0.0%2CN%3Bfileman%2C18.5.600%2CN%3Bperfmon%2C20.0.0%2CN%3Bsocialservices%2C19.0.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C20.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C20.0.0%2CN%3Brest%2C20.0.150%2CN%3Bseo%2C20.0.0%2CN%3Blanding%2C20.0.400%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C20.0.200%2CN%3Btranslate%2C19.0.100%2CN%3Biblock%2C20.0.350%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-28 10:34:01 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-28 10:34:01 -  - TIME GetUpdatesList(request) 0.37 sec
+2020-02-28 10:34:01 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-28 10:34:08 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-28 10:34:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-28 10:34:08 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.650%2CN%3Bhighloadblock%2C20.0.100%2CN%3Bmessageservice%2C20.0.0%2CN%3Bfileman%2C18.5.600%2CN%3Bperfmon%2C20.0.0%2CN%3Bsocialservices%2C19.0.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C20.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C20.0.0%2CN%3Brest%2C20.0.150%2CN%3Bseo%2C20.0.0%2CN%3Blanding%2C20.0.400%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C20.0.200%2CN%3Btranslate%2C19.0.100%2CN%3Biblock%2C20.0.350%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-28 10:34:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-28 10:34:08 -  - TIME GetUpdatesList(request) 0.236 sec
+2020-02-28 10:34:08 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-28 10:35:37 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-28 10:35:37 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-28 10:35:37 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.650%2CN%3Bhighloadblock%2C20.0.100%2CN%3Bmessageservice%2C20.0.0%2CN%3Bfileman%2C18.5.600%2CN%3Bperfmon%2C20.0.0%2CN%3Bsocialservices%2C19.0.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C20.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C20.0.0%2CN%3Brest%2C20.0.150%2CN%3Bseo%2C20.0.0%2CN%3Blanding%2C20.0.400%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C20.0.200%2CN%3Btranslate%2C19.0.100%2CN%3Biblock%2C20.0.350%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-28 10:35:37 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-28 10:35:38 -  - TIME GetUpdatesList(request) 0.309 sec
+2020-02-28 10:35:38 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-28 10:35:49 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-28 10:35:49 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-28 10:35:49 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.650%2CN%3Bhighloadblock%2C20.0.100%2CN%3Bmessageservice%2C20.0.0%2CN%3Bfileman%2C18.5.600%2CN%3Bperfmon%2C20.0.0%2CN%3Bsocialservices%2C19.0.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C20.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C20.0.0%2CN%3Brest%2C20.0.150%2CN%3Bseo%2C20.0.0%2CN%3Blanding%2C20.0.400%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C20.0.200%2CN%3Btranslate%2C19.0.100%2CN%3Biblock%2C20.0.350%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-28 10:35:49 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-28 10:35:49 -  - TIME GetUpdatesList(request) 0.244 sec
+2020-02-28 10:35:49 -  - exec CUpdateClientPartner::ParseServerData
+2020-03-02 11:51:44 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-03-02 11:51:44 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-03-02 11:51:44 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.650%2CN%3Bhighloadblock%2C20.0.100%2CN%3Bmessageservice%2C20.0.0%2CN%3Bfileman%2C18.5.600%2CN%3Bperfmon%2C20.0.0%2CN%3Bsocialservices%2C19.0.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C20.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C20.0.0%2CN%3Brest%2C20.0.150%2CN%3Bseo%2C20.0.0%2CN%3Blanding%2C20.0.400%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C20.0.200%2CN%3Btranslate%2C19.0.100%2CN%3Biblock%2C20.0.350%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-03-02 11:51:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-03-02 11:51:44 -  - TIME GetUpdatesList(request) 0.222 sec
+2020-03-02 11:51:44 -  - exec CUpdateClientPartner::ParseServerData
+2020-03-02 11:53:10 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-03-02 11:53:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-03-02 11:53:10 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.650%2CN%3Bhighloadblock%2C20.0.100%2CN%3Bmessageservice%2C20.0.0%2CN%3Bfileman%2C18.5.600%2CN%3Bperfmon%2C20.0.0%2CN%3Bsocialservices%2C19.0.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C20.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C20.0.0%2CN%3Brest%2C20.0.150%2CN%3Bseo%2C20.0.0%2CN%3Blanding%2C20.0.400%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C20.0.200%2CN%3Btranslate%2C19.0.100%2CN%3Biblock%2C20.0.350%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2020-03-02 11:53:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-03-02 11:53:10 -  - TIME GetUpdatesList(request) 0.233 sec
+2020-03-02 11:53:10 -  - exec CUpdateClientPartner::ParseServerData
+2020-03-02 11:54:03 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-03-02 11:54:03 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-03-02 11:54:03 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.650%2CN%3Bhighloadblock%2C20.0.100%2CN%3Bmessageservice%2C20.0.0%2CN%3Bfileman%2C18.5.600%2CN%3Bperfmon%2C20.0.0%2CN%3Bsocialservices%2C19.0.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C20.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C20.0.0%2CN%3Brest%2C20.0.150%2CN%3Bseo%2C20.0.0%2CN%3Blanding%2C20.0.400%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C20.0.200%2CN%3Btranslate%2C19.0.100%2CN%3Biblock%2C20.0.350%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2020-03-02 11:54:03 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-03-02 11:54:07 -  - TIME GetUpdatesList(request) 4.501 sec
+2020-03-02 11:54:07 -  - exec CUpdateClientPartner::ParseServerData
+2020-03-02 11:54:08 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-03-02 11:54:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-03-02 11:54:08 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.650%2CN%3Bhighloadblock%2C20.0.100%2CN%3Bmessageservice%2C20.0.0%2CN%3Bfileman%2C18.5.600%2CN%3Bperfmon%2C20.0.0%2CN%3Bsocialservices%2C19.0.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C20.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C20.0.0%2CN%3Brest%2C20.0.150%2CN%3Bseo%2C20.0.0%2CN%3Blanding%2C20.0.400%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C20.0.200%2CN%3Btranslate%2C19.0.100%2CN%3Biblock%2C20.0.350%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-03-02 11:54:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-03-02 11:54:09 -  - TIME GetUpdatesList(request) 0.229 sec
+2020-03-02 11:54:09 -  - exec CUpdateClientPartner::ParseServerData
+2020-03-02 11:54:16 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-03-02 11:54:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-03-02 11:54:16 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.650%2CN%3Bhighloadblock%2C20.0.100%2CN%3Bmessageservice%2C20.0.0%2CN%3Bfileman%2C18.5.600%2CN%3Bperfmon%2C20.0.0%2CN%3Bsocialservices%2C19.0.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C20.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C20.0.0%2CN%3Brest%2C20.0.150%2CN%3Bseo%2C20.0.0%2CN%3Blanding%2C20.0.400%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C20.0.200%2CN%3Btranslate%2C19.0.100%2CN%3Biblock%2C20.0.350%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2020-03-02 11:54:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-03-02 11:54:16 -  - TIME GetUpdatesList(request) 0.232 sec
+2020-03-02 11:54:16 -  - exec CUpdateClientPartner::ParseServerData
+2020-03-02 11:54:40 -  - exec CUpdateClientPartner::ActivateCoupon
+2020-03-02 11:54:40 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-03-02 11:54:40 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.650%2CN%3Bhighloadblock%2C20.0.100%2CN%3Bmessageservice%2C20.0.0%2CN%3Bfileman%2C18.5.600%2CN%3Bperfmon%2C20.0.0%2CN%3Bsocialservices%2C19.0.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C20.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C20.0.0%2CN%3Brest%2C20.0.150%2CN%3Bseo%2C20.0.0%2CN%3Blanding%2C20.0.400%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C20.0.200%2CN%3Btranslate%2C19.0.100%2CN%3Biblock%2C20.0.350%2CN&SUPD_SRS=RU&SUPD_CMP=N&coupon=MPX-RT3TUXY9KC-JGISRWIYHT&query_type=coupon
+2020-03-02 11:54:40 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-03-02 11:54:40 -  - TIME ActivateCoupon(request) 0.178 sec
+2020-03-02 11:54:40 -  - exec CUpdateClientPartner::ParseServerData
+2020-03-02 11:54:40 - UPD_SUCCESS - Coupon activated
+2020-03-02 11:54:43 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-03-02 11:54:43 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-03-02 11:54:43 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.650%2CN%3Bhighloadblock%2C20.0.100%2CN%3Bmessageservice%2C20.0.0%2CN%3Bfileman%2C18.5.600%2CN%3Bperfmon%2C20.0.0%2CN%3Bsocialservices%2C19.0.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C20.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C20.0.0%2CN%3Brest%2C20.0.150%2CN%3Bseo%2C20.0.0%2CN%3Blanding%2C20.0.400%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C20.0.200%2CN%3Btranslate%2C19.0.100%2CN%3Biblock%2C20.0.350%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2020-03-02 11:54:43 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-03-02 11:54:43 -  - TIME GetUpdatesList(request) 0.231 sec
+2020-03-02 11:54:43 -  - exec CUpdateClientPartner::ParseServerData
+2020-03-02 11:54:51 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-03-02 11:54:51 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-03-02 11:54:51 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.650%2CN%3Bhighloadblock%2C20.0.100%2CN%3Bmessageservice%2C20.0.0%2CN%3Bfileman%2C18.5.600%2CN%3Bperfmon%2C20.0.0%2CN%3Bsocialservices%2C19.0.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C20.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C20.0.0%2CN%3Brest%2C20.0.150%2CN%3Bseo%2C20.0.0%2CN%3Blanding%2C20.0.400%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C20.0.200%2CN%3Btranslate%2C19.0.100%2CN%3Biblock%2C20.0.350%2CN&reqm=aelita.test&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-03-02 11:54:51 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-03-02 11:54:51 -  - TIME LoadModulesUpdates(request) 0.246 sec
+2020-03-02 11:54:51 -  - exec CUpdateClientPartner::ParseServerData
+2020-03-02 11:54:51 - S - STEP
+2020-03-02 11:54:51 - LMU01 - LoadModulesUpdates-Step
+2020-03-02 11:54:52 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-03-02 11:54:52 -  - exec CUpdateClientPartner::ParseServerData
+2020-03-02 11:54:52 -  - loadFile
+2020-03-02 11:54:52 - U - RETURN
+2020-03-02 11:54:52 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-03-02 11:54:52 -  - TIME UnGzipArchive 0.417 sec
+2020-03-02 11:54:54 -  - TIME UpdateStepModules 1.331 sec
+2020-03-02 11:54:54 - UPD_SUCCESS - Updated: aelita.test
+2020-03-02 11:54:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-03-02 11:54:54 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-03-02 11:54:54 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.650%2CN%3Bhighloadblock%2C20.0.100%2CN%3Bmessageservice%2C20.0.0%2CN%3Bfileman%2C18.5.600%2CN%3Bperfmon%2C20.0.0%2CN%3Bsocialservices%2C19.0.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C20.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C20.0.0%2CN%3Brest%2C20.0.150%2CN%3Bseo%2C20.0.0%2CN%3Blanding%2C20.0.400%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C20.0.200%2CN%3Baelita.test%2C3.1.19%2CN%3Btranslate%2C19.0.100%2CN%3Biblock%2C20.0.350%2CN&reqm=aelita.test&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-03-02 11:54:54 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-03-02 11:54:55 -  - TIME LoadModulesUpdates(request) 0.237 sec
+2020-03-02 11:54:55 -  - exec CUpdateClientPartner::ParseServerData
+2020-03-02 11:54:55 - STEP - Finish - NOUPDATES
+2020-03-02 11:54:55 - STEP - Finish - NOUPDATES
+2020-03-02 11:55:02 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-03-02 11:55:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-03-02 11:55:02 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.650%2CN%3Bhighloadblock%2C20.0.100%2CN%3Bmessageservice%2C20.0.0%2CN%3Bfileman%2C18.5.600%2CN%3Bperfmon%2C20.0.0%2CN%3Bsocialservices%2C19.0.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C20.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C20.0.0%2CN%3Brest%2C20.0.150%2CN%3Bseo%2C20.0.0%2CN%3Blanding%2C20.0.400%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C20.0.200%2CN%3Baelita.test%2C3.1.19%2CN%3Btranslate%2C19.0.100%2CN%3Biblock%2C20.0.350%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate%2Caelita.test&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-03-02 11:55:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-03-02 11:55:03 -  - TIME GetUpdatesList(request) 0.312 sec
+2020-03-02 11:55:03 -  - exec CUpdateClientPartner::ParseServerData
+2020-03-02 13:54:45 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-03-02 13:54:45 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-03-02 13:54:45 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.650%2CN%3Bhighloadblock%2C20.0.100%2CN%3Bmessageservice%2C20.0.0%2CN%3Bfileman%2C18.5.600%2CN%3Bperfmon%2C20.0.0%2CN%3Bsocialservices%2C19.0.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C20.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C20.0.0%2CN%3Brest%2C20.0.150%2CN%3Bseo%2C20.0.0%2CN%3Blanding%2C20.0.400%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C20.0.200%2CN%3Baelita.test%2C3.1.19%2CN%3Btranslate%2C19.0.100%2CN%3Biblock%2C20.0.350%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate%2Caelita.test&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-03-02 13:54:45 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-03-02 13:54:45 -  - TIME GetUpdatesList(request) 0.303 sec
+2020-03-02 13:54:45 -  - exec CUpdateClientPartner::ParseServerData
+2020-03-02 13:54:50 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-03-02 13:54:50 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-03-02 13:54:50 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=xn----ttbfgbtd4a.xn--p1ai&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=E&CLIENT_PHPVER=7.1.28&NGINX=Y&dbv=10.1.37&instm=main%2C20.0.650%2CN%3Bhighloadblock%2C20.0.100%2CN%3Bmessageservice%2C20.0.0%2CN%3Bfileman%2C18.5.600%2CN%3Bperfmon%2C20.0.0%2CN%3Bsocialservices%2C19.0.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bclouds%2C20.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bcompression%2C19.0.0%2CN%3Bbitrixcloud%2C20.0.0%2CN%3Brest%2C20.0.150%2CN%3Bseo%2C20.0.0%2CN%3Blanding%2C20.0.400%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bui%2C20.0.200%2CN%3Baelita.test%2C3.1.19%2CN%3Btranslate%2C19.0.100%2CN%3Biblock%2C20.0.350%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate%2Caelita.test&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-03-02 13:54:50 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-03-02 13:54:51 -  - TIME GetUpdatesList(request) 0.23 sec
+2020-03-02 13:54:51 -  - exec CUpdateClientPartner::ParseServerData
